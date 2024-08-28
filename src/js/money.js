@@ -13,3 +13,9 @@ function setMoney(amount) {
 function updateMoneyDisplay() {
 	document.getElementById('money').innerText = `money $${getMoney()}`
 }
+
+module.exports = {
+	getMoney,
+	setMoney,
+	updateMoneyDisplay
+}
