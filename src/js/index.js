@@ -2,7 +2,7 @@
 
 const XorShift = require('xorshift');
 
-const money = require('./money.js');
+const money = require('./src/js/money.js');
 
 console.log("You aren't here to cheat, right?");
 
