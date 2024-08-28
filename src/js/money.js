@@ -1,6 +1,6 @@
 function getMoney() {
 	const encodedMoney = localStorage.getItem('money');
-	const decodedMoney = btoa(encodedMoney);
+	const decodedMoney = atob(encodedMoney);
 	const parsedMoney = parseInt(decodedMoney);
 
 	return parsedMoney;
