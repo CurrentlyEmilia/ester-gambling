@@ -3,6 +3,10 @@ function getMoney() {
 	const decodedMoney = atob(encodedMoney);
 	const parsedMoney = parseInt(decodedMoney);
 
+	if (isNaN(parsedMoney)) {
+		return 100;
+	}
+
 	return parsedMoney;
 }
 
