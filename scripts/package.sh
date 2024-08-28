@@ -3,7 +3,7 @@
 set -e; # exit on error
 
 printf "JS... "
-cat src/script.js | babel -f bundle.min.js | esbuild --bundle --minify > bundle/script.js
+cat src/js/index.js | babel -f bundle.min.js | esbuild --bundle --minify > bundle/script.js
 printf "OK\n"
 
 printf "CSS... "
