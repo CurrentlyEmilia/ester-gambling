@@ -1,0 +1,26 @@
+{
+	"name": "ester-gambling",
+	"version": "0.1.0",
+	"description": "gambl? or bitch?",
+	"main": "index.js",
+	"repository": "https://github.com/n1d3v/ester-gambling",
+	"author": "https://github.com/n1d3v",
+	"license": "Apache-2.0",
+	"private": false,
+	"scripts": {
+		"package": "./scripts/package.sh"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.24.8",
+		"@babel/core": "^7.25.2",
+		"@babel/preset-env": "^7.25.4",
+		"css-minify": "^2.0.0",
+		"esbuild": "^0.23.1",
+		"eslint": "^9.9.1",
+		"html-minifier": "^4.0.0"
+	},
+	"dependencies": {
+		"core-js": "^3.38.1",
+		"xorshift": "^1.2.0"
+	}
+}
