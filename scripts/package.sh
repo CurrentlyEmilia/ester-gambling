@@ -14,3 +14,4 @@ cat src/index.html | html-minifier --collapse-whitespace --remove-comments --rem
 printf "OK\n"
 
 cp -r assets bundle/assets
+cp -r coolassfx bundle/coolassfx
