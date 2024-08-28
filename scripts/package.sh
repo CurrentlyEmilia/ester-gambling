@@ -15,3 +15,5 @@ printf "OK\n"
 
 cp -r assets bundle/assets
 cp -r coolassfx bundle/coolassfx
+
+cp favicon.ico bundle/favicon.ico
